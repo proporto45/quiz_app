@@ -1,0 +1,39 @@
+.StartScreenContainer {
+  //padding: 2% 4%;
+  position: absolute;
+  left: 0;
+  top: 0px !important;
+  width: 100%;
+  padding: 24% 4%;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+}
+
+.StartScreenContainer {
+  -webkit-transition: -webkit-transform .5s ease-out;
+  -moz-transition: -moz-transform .5s ease-out;
+  -ms-transition: -ms-transform .5s ease-out;
+  -o-transition: -o-transform .5s ease-out;
+  transition: transform .5s ease-out;
+}
+
+.PatientsBlock {
+  //position: absolute;
+}
+
+.StartScreenContainer.active {
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  -o-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+}
+
+.StartScreenContainer.nonActive {
+  -webkit-transform: translate(-101%, 0%);
+  -moz-transform: translate(-101%, 0%);
+  -ms-transform: translate(-101%, 0%);
+  -o-transform: translate(-101%, 0%);
+  transform: translate(-101%, 0%);
+}
+

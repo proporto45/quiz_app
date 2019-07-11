@@ -1,0 +1,18 @@
+
+// layout setups
+@import "layout/setup.scss";
+@import "layout/fonts.scss";
+
+// mixins
+@import "helpers/mixins";
+
+// components setup
+@import "blocks/preloader.scss";
+@import "blocks/progressBar.scss";
+@import "blocks/stageScreen.scss";
+@import "blocks/startScreen.scss";
+@import "blocks/stickyBar.scss";
+@import "blocks/PatinentsList.scss";
+@import "blocks/PatinentsListItem.scss";
+@import "blocks/Answer.scss";
+@import "blocks/InputSelects.scss";

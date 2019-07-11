@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>btn_back</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<circle id="a" cx="22" cy="22" r="20"/>
+<filter id="b" x="-37.5%" y="-37.5%" width="175%" height="175%">
+<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-12 -9)">
+<g transform="translate(20 17)">
+<use fill="black" filter="url(#b)" xlink:href="#a"/>
+<use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#a"/>
+<circle cx="22" cy="22" r="21" stroke="#4A4A4A" stroke-width="2"/>
+<circle cx="22" cy="22" r="23" stroke="#fff" stroke-width="2"/>
+<path d="m31.852 20.902h-14.052l4.4175-4.3149c0.21632-0.21066 0.33498-0.49604 0.33498-0.79556 0-0.29952-0.11866-0.5829-0.33498-0.79406l-0.68737-0.67026c-0.21615-0.21066-0.50417-0.32714-0.81132-0.32714-0.30732 0-0.59551 0.11565-0.81166 0.32631l-7.5725 7.3797c-0.217 0.2115-0.33566 0.49321-0.3348 0.7929-8.537e-4 0.30135 0.1178 0.58323 0.3348 0.7944l7.5725 7.3804c0.21615 0.2105 0.50417 0.32631 0.81166 0.32631 0.30715 0 0.59517-0.11598 0.81132-0.32631l0.68737-0.67026c0.21632-0.21033 0.33498-0.49122 0.33498-0.79074 0-0.29935-0.11866-0.56543-0.33498-0.77593l-4.4674-4.3391h14.085c0.6329 0 1.1647-0.53165 1.1647-1.1482v-0.94799c0-0.61651-0.54754-1.1066-1.1804-1.1066" fill="#4A4A4A"/>
+</g>
+</g>
+</g>
+</svg>

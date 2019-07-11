@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+}
+
+
+body {
+  background-color: #2196f3;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+}
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  //overflow-x: hidden !important;
+  //overflow-y: hidden;
+  padding: 17% 0;
+}
+#root {
+  width: 100%;
+  //height: 1100px;
+  height: 100%;
+  background-color: #fefefe;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+#rootContainer {
+  width: 100%;
+  //height: 1100px;
+  height: 100%;
+  background-color: #fefefe;
+  //position: relative;
+  //overflow-x: hidden;
+  //overflow-y: scroll;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+textarea, input {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+#root > * {
+  -webkit-overflow-scrolling: auto;
+}
+
+#choices div:focus {
+  background: none !important;
+}

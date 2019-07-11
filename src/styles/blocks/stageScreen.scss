@@ -1,0 +1,43 @@
+.StageScreenContainer {
+  position: absolute;
+  left: 0;
+  top: 0px !important;
+  width: 100%;
+  overflow: hidden;
+  padding: 24% 4%;
+  -webkit-transition: -webkit-transform .5s ease-out, opacity .5s ease-out;
+  -moz-transition: -moz-transform .5s ease-out, opacity .5s ease-out;
+  -ms-transition: -ms-transform .5s ease-out, opacity .5s ease-out;
+  -o-transition: -o-transform .5s ease-out, opacity .5s ease-out;
+  transition: transform .5s ease-out, opacity .5s ease-out;
+}
+.boldText {
+  font-weight:bold !important;
+}
+.StageScreenContainer.hidden {
+  display: none;
+}
+.StageScreenContainer.active {
+  //display: block;
+  opacity:1;
+  -webkit-transform: translate(0%, 0%);
+  -moz-transform: translate(0%, 0%);
+  -ms-transform: translate(0%, 0%);
+  -o-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
+}
+
+.StageScreenContainer.nonActive {
+  //display: none;
+  opacity:0;
+  -webkit-transform: translate(100%, 0%);
+  -moz-transform: translate(100%, 0%);
+  -ms-transform: translate(100%, 0%);
+  -o-transform: translate(100%, 0%);
+  transform: translate(100%, 0%);
+}
+.saveButton {
+  //width: 100% !important;
+  padding: 5% 0 5% 0 !important;
+  margin: 5% 5% 0 5% !important;
+}

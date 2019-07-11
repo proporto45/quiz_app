@@ -1,0 +1,74 @@
+[
+  {
+    "userId": "12341244",
+    "phoneNumber": "12341244",
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "patronymic": "",
+    "isValid": true
+  },
+  {
+    "userId": "123412442344",
+    "phoneNumber": "12340001244",
+    "firstName": "Вася",
+    "lastName": "Ивановко",
+    "patronymic": "Пэтрович",
+    "isValid": true
+  },
+  {
+    "userId": "12341114",
+    "phoneNumber": "12341114",
+    "firstName": "Алексей",
+    "lastName": "Алексеев",
+    "patronymic": "Егорович",
+    "isValid": true
+  },
+  {
+    "userId": "1203333244",
+    "phoneNumber": "1203333244",
+    "firstName": "Чиба1",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  },
+  {
+    "userId": "1233613344",
+    "phoneNumber": "1233613344",
+    "firstName": "Чиба2",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  },
+  {
+    "userId": "1238313344",
+    "phoneNumber": "1238313344",
+    "firstName": "Чиба2",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  },
+  {
+    "userId": "1233123344",
+    "phoneNumber": "1233123344",
+    "firstName": "Чиба2",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  },
+  {
+    "userId": "1233113344",
+    "phoneNumber": "1233113344",
+    "firstName": "Чиба2",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  },
+  {
+    "userId": "1233833344",
+    "phoneNumber": "1233833344",
+    "firstName": "Чиба3",
+    "lastName": "Петров",
+    "patronymic": "Сан",
+    "isValid": true
+  }
+]

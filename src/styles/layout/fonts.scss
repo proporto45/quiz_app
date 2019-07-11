@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Italic;
+  src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-BoldItalic;
+  src: url(fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: SFProText-Regular;
+  src: url(fonts/SFProText-Regular.ttf);
+}
+
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url(fonts/SFUIText-Regular.ttf);
+}
+
+@mixin roboto($style: 'regular') {
+  @if $style == 'regular' {
+    font-family: Roboto-Regular;
+  } @else if $style == 'bold' {
+    font-family: Roboto-Bold;
+  } @else if $style == 'italic' {
+    font-family: Roboto-Italic;
+  } @else if $style == 'lightitalic' {
+    font-family: Roboto-LightItalic;
+  } @else if $style == 'bolditalic' {
+    font-family: Roboto-BoldItalic;
+  } @else if $style == 'medium' {
+    font-family: Roboto-Medium;
+  }
+}
