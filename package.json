@@ -40,7 +40,7 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^1.7.0",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react-hot-loader": "^4.3.12",
     "redux-devtools": "^3.4.2",
     "sass-loader": "^7.1.0",
